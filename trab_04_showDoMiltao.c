@@ -2,26 +2,26 @@
 #include <stdlib.h>
 #include <string.h>
 
-//Trabalho show do miltão. Enunciado:
+//Trabalho show do miltÃ£o. Enunciado:
 /*
-O Bar do Miltão é um conhecido estabelecimento de uma cidade do interior de São Paulo. Além da porção de moela, do gorduroso espeto de calabresa e das intermináveis músicas de Amado Batista, o Bar do Miltão oferece uma atração peculiar: o Show do Miltão, uma brincadeira de perguntas e respostas com questões matemáticas valendo prêmios para os vencedores. O funcionamento do Show do Miltão é relativamente simples: enquanto o jogador estiver acertando as perguntas, a porção de chopp fica 30% mais barata e, para cada pergunta certa, o jogador pode escolher a próxima música do karaokê, um alívio para os ouvidos cansados do brega nacional. Como previsto, o Show do Miltão se tornou um sucesso entre os assíduos frequentadores do nobre estabelecimento, o que obrigou Miltão a realizar algumas mudanças. Antigamente, o Show do Miltão era feito com papel e caneta, mas, devido à alta demanda, ele percebeu que precisaria atualizar a sua brincadeira se quisesse continuar atendendo sua clientela de modo eficiente.
+O Bar do MiltÃ£o Ã© um conhecido estabelecimento de uma cidade do interior de SÃ£o Paulo. AlÃ©m da porÃ§Ã£o de moela, do gorduroso espeto de calabresa e das interminÃ¡veis mÃºsicas de Amado Batista, o Bar do MiltÃ£o oferece uma atraÃ§Ã£o peculiar: o Show do MiltÃ£o, uma brincadeira de perguntas e respostas com questÃµes matemÃ¡ticas valendo prÃªmios para os vencedores. O funcionamento do Show do MiltÃ£o Ã© relativamente simples: enquanto o jogador estiver acertando as perguntas, a porÃ§Ã£o de chopp fica 30% mais barata e, para cada pergunta certa, o jogador pode escolher a prÃ³xima mÃºsica do karaokÃª, um alÃ­vio para os ouvidos cansados do brega nacional. Como previsto, o Show do MiltÃ£o se tornou um sucesso entre os assÃ­duos frequentadores do nobre estabelecimento, o que obrigou MiltÃ£o a realizar algumas mudanÃ§as. Antigamente, o Show do MiltÃ£o era feito com papel e caneta, mas, devido Ã  alta demanda, ele percebeu que precisaria atualizar a sua brincadeira se quisesse continuar atendendo sua clientela de modo eficiente.
 
-Miltão, com sua extensa rede de contatos, ficou sabendo dos seus talentos e habilidades com programação e decidiu contratá-lo para tão nobre tarefa. Para auxiliar Miltão a se manter relevante no cenário do entretenimento nacional, você deverá construir um programa que lerá uma sequência de dados referentes a cada pergunta: o tipo da pergunta, que será INT para respostas com números inteiros e FLOAT para respostas com números em ponto flutuante, a pergunta, uma string de no máximo 100 caracteres, três alternativas, que podem ser tanto números inteiros ou pontos flutuantes, e a resposta correta, um número inteiro indicando qual das alternativas é a correta (0, 1 ou 2) para aquela pergunta. Essas perguntas devem ser cadastradas no sistema até que a palavra "FIM" seja digitada.
+MiltÃ£o, com sua extensa rede de contatos, ficou sabendo dos seus talentos e habilidades com programaÃ§Ã£o e decidiu contratÃ¡-lo para tÃ£o nobre tarefa. Para auxiliar MiltÃ£o a se manter relevante no cenÃ¡rio do entretenimento nacional, vocÃª deverÃ¡ construir um programa que lerÃ¡ uma sequÃªncia de dados referentes a cada pergunta: o tipo da pergunta, que serÃ¡ INT para respostas com nÃºmeros inteiros e FLOAT para respostas com nÃºmeros em ponto flutuante, a pergunta, uma string de no mÃ¡ximo 100 caracteres, trÃªs alternativas, que podem ser tanto nÃºmeros inteiros ou pontos flutuantes, e a resposta correta, um nÃºmero inteiro indicando qual das alternativas Ã© a correta (0, 1 ou 2) para aquela pergunta. Essas perguntas devem ser cadastradas no sistema atÃ© que a palavra "FIM" seja digitada.
 
-Depois de cadastradas as perguntas, seu programa está pronto para ser usado pela clientela de Miltão. Seu programa deve permitir que o usuário digite o tipo de pergunta desejada, INT para perguntas com respostas de números inteiros e FLOAT para perguntas que envolvem números de ponto flutuante, e o número da pergunta que o usuário deseja responder, de acordo com a a ordem em que foram cadastradas . Isso quer dizer que se o usuário digitar INT e 3, seu programa deve apresentar a terceira questão cadastrada do tipo inteiro. Seu programa deve continuar executando até que o usuário erre alguma questão ou que digite "FIM" novamente para sair do programa.
+Depois de cadastradas as perguntas, seu programa estÃ¡ pronto para ser usado pela clientela de MiltÃ£o. Seu programa deve permitir que o usuÃ¡rio digite o tipo de pergunta desejada, INT para perguntas com respostas de nÃºmeros inteiros e FLOAT para perguntas que envolvem nÃºmeros de ponto flutuante, e o nÃºmero da pergunta que o usuÃ¡rio deseja responder, de acordo com a a ordem em que foram cadastradas . Isso quer dizer que se o usuÃ¡rio digitar INT e 3, seu programa deve apresentar a terceira questÃ£o cadastrada do tipo inteiro. Seu programa deve continuar executando atÃ© que o usuÃ¡rio erre alguma questÃ£o ou que digite "FIM" novamente para sair do programa.
 
-A saída do seu programa deverá apresentar uma única vez a frase "Prepare-se para o Show do Miltao!". Depois, deve apresentar a pergunta, as alternativas e se o usuário acertou ou errou a resposta. Para respostas com ponto flutuante, apresentá-las com duas casas decimais, conforme exemplos abaixo:
+A saÃ­da do seu programa deverÃ¡ apresentar uma Ãºnica vez a frase "Prepare-se para o Show do Miltao!". Depois, deve apresentar a pergunta, as alternativas e se o usuÃ¡rio acertou ou errou a resposta. Para respostas com ponto flutuante, apresentÃ¡-las com duas casas decimais, conforme exemplos abaixo:
 
 Pergunta: Quanto e 2.45 x 2?
 Alternativa 0: 4.90
 Alternativa 1: 5.31
 Alternativa 2: 6.20
-Parabens, voce acertou! (caso o usuário tenha acertado a resposta)
+Parabens, voce acertou! (caso o usuÃ¡rio tenha acertado a resposta)
 Resposta errada, voce perdeu! (caso o usuario tenha errado a resposta)
 
 */
 
-//Criando a função
+//Criando a funÃ§Ã£o
 int main()
 {
   char fim[] = "FIM";
@@ -29,10 +29,10 @@ int main()
   int i = 0,j=0, alternativas_int[3][3], correta_int[3], correta_float[3];
   float alternativas_float[3][3];
 
-  //REGISTRA AS PERGUNTAS, ALTERNATIVAS E A RESPOSTA CERTA ATÉ O USUÁRIO DIGITAR "FIM"
+  //REGISTRA AS PERGUNTAS, ALTERNATIVAS E A RESPOSTA CERTA ATÃ‰ O USUÃRIO DIGITAR "FIM"
  while(strcmp(fim, tipo) != 0)
   {
-    gets(tipo);
+    gets(tipo, 6, stdin);
     tipo[strcspn(tipo, "\n")] = 0;
     if (strncmp(tipo, "INT", 3) == 0)
     {
@@ -84,7 +84,7 @@ int main()
             printf("Alternativa 0: %d\n", alternativas_int[0][0]);
             printf("Alternativa 1: %d\n", alternativas_int[0][1]);
             printf("Alternativa 2: %d\n", alternativas_int[0][2]);
-            //lê e verifica se a reposta é certa
+            //lÃª e verifica se a reposta Ã© certa
             scanf("%d", &tentativa);
             if(tentativa == correta_int[0]) {
                 printf("Parabens, voce acertou!\n");
@@ -99,7 +99,7 @@ int main()
             printf("Alternativa 0: %d\n", alternativas_int[1][0]);
             printf("Alternativa 1: %d\n", alternativas_int[1][1]);
             printf("Alternativa 2: %d\n", alternativas_int[1][2]);
-            //lê e verifica se a reposta é certa
+            //lÃª e verifica se a reposta Ã© certa
             scanf("%d", &tentativa);
             if(tentativa == correta_int[1]) {
                 printf("Parabens, voce acertou!\n");
@@ -113,7 +113,7 @@ int main()
             printf("Alternativa 0: %d\n", alternativas_int[2][0]);
             printf("Alternativa 1: %d\n", alternativas_int[2][1]);
             printf("Alternativa 2: %d\n", alternativas_int[2][2]);
-            //lê e verifica se a reposta é certa
+            //lÃª e verifica se a reposta Ã© certa
             scanf("%d", &tentativa);
             if(tentativa == correta_int[2]) {
                 printf("Parabens, voce acertou!\n");
@@ -138,7 +138,7 @@ int main()
             printf("Alternativa 0: %.2f\n", alternativas_float[0][0]);
             printf("Alternativa 1: %.2f\n", alternativas_float[0][1]);
             printf("Alternativa 2: %.2f\n", alternativas_float[0][2]);
-            //lê e verifica se a reposta é certa
+            //lÃª e verifica se a reposta Ã© certa
             scanf("%d", &tentativa);
             if(tentativa == correta_float[0]) {
                 printf("Parabens, voce acertou!\n");
@@ -152,7 +152,7 @@ int main()
             printf("Alternativa 0: %.2f\n", alternativas_float[1][0]);
             printf("Alternativa 1: %.2f\n", alternativas_float[1][1]);
             printf("Alternativa 2: %.2f\n", alternativas_float[1][2]);
-            //lê e verifica se a reposta é certa
+            //lÃª e verifica se a reposta Ã© certa
             scanf("%d", &tentativa);
             if(tentativa == correta_float[1]) {
                 printf("Parabens, voce acertou!\n");
@@ -166,7 +166,7 @@ int main()
             printf("Alternativa 0: %.2f\n", alternativas_float[2][0]);
             printf("Alternativa 1: %.2f\n", alternativas_float[2][1]);
             printf("Alternativa 2: %.2f\n", alternativas_float[2][2]);
-            //lê e verifica se a reposta é certa
+            //lÃª e verifica se a reposta Ã© certa
             scanf("%d", &tentativa);
             if(tentativa == correta_float[2]) {
                 printf("Parabens, voce acertou!\n");
