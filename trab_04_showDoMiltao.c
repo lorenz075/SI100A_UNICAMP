@@ -32,7 +32,7 @@ int main()
   //REGISTRA AS PERGUNTAS, ALTERNATIVAS E A RESPOSTA CERTA ATÉ O USUÁRIO DIGITAR "FIM"
  while(strcmp(fim, tipo) != 0)
   {
-    gets(tipo, 6, stdin);
+    gets(tipo);
     tipo[strcspn(tipo, "\n")] = 0;
     if (strncmp(tipo, "INT", 3) == 0)
     {
